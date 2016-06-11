@@ -269,7 +269,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-06-11T12:31:44+08:00" content="2016-06-11">
+            <time itemprop="dateCreated" datetime="2016-06-11T12:38:00+08:00" content="2016-06-11">
               2016-06-11
             </time>
           </span>
@@ -317,6 +317,32 @@
 <li>H5 :##### Header 5</li>
 <li>H6 :###### Header 6</li>
 </ul>
+<h4 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h4><pre><code>链接 &lt;span class=&quot;hljs-symbol&quot;&gt;:&lt;/span&gt;[&lt;span class=&quot;hljs-constant&quot;&gt;Title&lt;/span&gt;](&lt;span class=&quot;hljs-constant&quot;&gt;URL&lt;/span&gt;)
+加粗 &lt;span class=&quot;hljs-symbol&quot;&gt;:**Bold**&lt;/span&gt;
+斜体字 &lt;span class=&quot;hljs-symbol&quot;&gt;:*Italics*&lt;/span&gt;
+删除线 &lt;span class=&quot;hljs-symbol&quot;&gt;:~~text~~&lt;/span&gt;
+高亮 &lt;span class=&quot;hljs-symbol&quot;&gt;:==text=&lt;/span&gt;=
+段落 &lt;span class=&quot;hljs-symbol&quot;&gt;:&lt;/span&gt; 段落之间空一行
+换行符 &lt;span class=&quot;hljs-symbol&quot;&gt;:&lt;/span&gt; 一行结束时输入两个空格
+列表 &lt;span class=&quot;hljs-symbol&quot;&gt;:*&lt;/span&gt; 添加星号成为一个新的列表项。
+&lt;span class=&quot;hljs-prompt&quot;&gt;引用 :&gt;&lt;/span&gt; 引用内容
+内嵌代码 &lt;span class=&quot;hljs-symbol&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;`alert(&apos;Hello World&apos;);`&lt;/span&gt;
+画水平线 (&lt;span class=&quot;hljs-constant&quot;&gt;HR&lt;/span&gt;) &lt;span class=&quot;hljs-symbol&quot;&gt;:--------&lt;/span&gt;
+`&lt;/pre&gt;
+
+#### 图片
+
+　　使用Markdown将图像插入文章，你需要在Markdown编辑器输入 ![]() 。 这时在预览面板中会自动创建一个图像上传框。你可以从电脑桌面拖放图片(.png, .gif, .jpg)到上传框, 或者点击图片上传框使用标准的图像上传方式。 如果你想通过链接插入网络上已经存在的图片，只要单击图片上传框的左下角的“链接”图标，这时就会呈现图像URL的输入框。想给图片添加一个标题, 你需要做的是将标题文本插图中的方括号，e.g;![This is a title]().
+
+#### 脚注
+
+　　使用这样的占位符号可以将脚注添加到文本中:[^1]. 另外，你可以使用“n”而不是数字的[^n]所以你可以不必担心使用哪个号码。在您的文章的结尾，你可以如下图所示定义匹配的注脚，URL将变成链接:
+ 　　[^1]: This is my first footnote
+
+&lt;pre&gt;`[&lt;span class=&quot;hljs-link_reference&quot;&gt;^n&lt;/span&gt;]:&lt;span class=&quot;hljs-link_url&quot;&gt; Visit http://example.com&lt;/span&gt;
+
+[&lt;span class=&quot;hljs-link_reference&quot;&gt;^n&lt;/span&gt;]:&lt;span class=&quot;hljs-link_url&quot;&gt; A final footnote&lt;/span&gt;
+</code></pre><h4 id="写代码"><a href="#写代码" class="headerlink" title="写代码"></a>写代码</h4><p>添加内嵌代码可以使用一对回勾号 <code>alert(&#39;Hello World&#39;)</code>.对于插入代码, Ghost支持标准的Markdown代码和GitHub Flavored Markdown (GFM)[4]  。标准Markdown基于缩进代码行或者4个空格位:</p>
 
           
         
